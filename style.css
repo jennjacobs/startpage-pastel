@@ -1,9 +1,9 @@
 body {
-  background-image: linear-gradient(#ff77b8, #ffe586);
+  background-image: radial-gradient(#eeaeca, #94bbe9);
   background-attachment: fixed;
 }
 
-.terminal {
+.container {
   margin-top: 150px;
 }
 
@@ -12,57 +12,38 @@ body {
   height: 320px;
   padding: 20px;
   font-family: Arial, Helvetica, sans-serif;
-  color: white;
-  text-align: center;
+  color: #40322d;
   margin: auto;
-  background-color: #000000;
-  border: 0px solid red;
-  border-radius: 0px 0px 7px 7px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  background-color: #ffffff;
+  border: 0px solid #eeaeca;
+  box-shadow: 15px 15px #eeaeca;
 }
 
-.bar {
-  background-color: #e4e4e4;
-  color: #030303;
-  width: 840px;
-  text-align: center;
-  margin: auto;
-  clear: both;
-  font-size: 100%;
-  border-radius: 7px 7px 0px 0px;
-  border-bottom: 1px solid #7e7e7e;
-  display: flex;
-}
-
-#dots {
-  margin: 5px;
-  display: flex;
-}
-
-.dot {
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  margin-right: 5px;
-}
-
-.red {
-  background: #ff615c;
-}
-
-.orange {
-  background: #ffbc47;
-}
-
-.green {
-  background: #00c850;
-}
-
-.column {
+.column1 {
   float: left;
   width: 22%;
   padding: 10px;
   height: 380px;
+  font-size: 15px;
+  text-align: right;
+  font-weight: bold;
+}
+
+.column2 {
+  float: left;
+  width: 45%;
+  padding: 10px;
+  height: 380px;
+  font-size: 15px;
+  text-align: left;
+}
+
+.column3 {
+  float: right;
+  width: 22%;
+  padding: 10px;
+  height: 220px;
+  background-image: url(/Users/jennifer/Projects/startpage-pastel/images/anime0.jpg);
 }
 
 .row:after {
@@ -73,7 +54,7 @@ body {
 
 /* unvisited link */
 a:link {
-  color: #ffffff;
+  color: #40322d;
   text-decoration: none;
 }
 
@@ -94,7 +75,7 @@ a:hover {
     color: #ff77b8;
   }
   16% {
-    color: #ffe586;
+    color: #94bbe9;
   }
   32% {
     color: #7ccdea;
@@ -115,7 +96,7 @@ a:hover {
     color: #ff77b8;
   }
   16% {
-    color: #ffe586;
+    color: #94bbe9;
   }
   32% {
     color: #7ccdea;
@@ -129,4 +110,8 @@ a:hover {
   80% {
     color: #7ccdea;
   }
+}
+
+.clock h2 {
+  text-align: center;
 }

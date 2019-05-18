@@ -1,3 +1,2 @@
-# page-gradient
-
-startpage with gradient
+# startpage-pastel
+simple pastel startpage
